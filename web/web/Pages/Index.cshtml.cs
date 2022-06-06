@@ -27,5 +27,6 @@ public class IndexModel : PageModel
     }"));
         HttpResponseMessage response = await client.GetAsync(uri.ToString());
         string result = response.Content.ReadAsStringAsync().Result;
+
     }
 }
