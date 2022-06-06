@@ -20,13 +20,13 @@ public class IndexModel : PageModel
         HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
         StringBuilder uri = new StringBuilder();
         uri.Append("test?query=");
-        uri.Append(HttpUtility.UrlEncode(@"SELECT distinct ?s { 
-  optional {?s skos:prefLabel 'Spirituality'.}
-        optional {?s skos:usedFor 'Spirituality'. }
-        optional {?s skos:altLabel 'Spirituality'. }
-    }"));
+        uri.Append(
+            HttpUtility.UrlEncode(
+                @"SELECT distinct ?s {
+                optional {?s skos:prefLabel 'Spirituality'.}
+                optional {?s skos:usedFor 'Spirituality'. }
+                optional {?s skos:altLabel 'Spirituality'. }}"));
         HttpResponseMessage response = await client.GetAsync(uri.ToString());
         string result = response.Content.ReadAsStringAsync().Result;
-
     }
 }
