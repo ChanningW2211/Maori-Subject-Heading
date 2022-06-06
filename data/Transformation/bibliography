@@ -1,0 +1,27 @@
+xquery version "3.1";
+
+declare namespace record = "http://national.library.records/#";
+
+declare namespace rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+
+declare namespace marc = "http://www.loc.gov/MARC21/slim";
+
+declare namespace skos = "http://www.w3.org/2004/02/skos/core#";
+
+let $terms:=doc("./taxonomy.xml")
+let $records:=doc("./bibliography.xml")
+
+return
+    <result>
+        {
+            for $record in $records//marc:record
+            return 
+            <record>
+                {<recordId>{string($record/marc:controlfield[@tag="001"])}</recordId>}
+                {
+                    for $heading in $record/marc:datafield[@tag="650"]/marc:subfield[@code="2" and text()="reo"]/preceding-sibling::marc:subfield[@code="a"]
+                    return <heading>{$terms//skos:Concept[(skos:prefLabel || ".")=string($heading)]/@rdf:about}</heading>
+                }
+            </record>
+        }
+    </result>

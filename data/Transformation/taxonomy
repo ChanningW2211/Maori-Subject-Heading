@@ -1,0 +1,31 @@
+xquery version "3.1";
+
+
+declare namespace skos = "http://www.w3.org/2004/02/skos/core#";
+
+declare namespace rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+
+
+let $terms := doc("./taxonomy.xml")
+return
+    <result>
+    {
+        for $term in $terms//*[skos:prefLabel]
+        return
+                <skos:Concept rdf:about="{ $term/@rdf:about }">
+                    { $term/*[not(self::skos:HE or self::skos:TA or self::skos:KA)] }
+                    {
+                        for $broaderTerm in $term/skos:TA
+                        return <skos:TA rdf:resource='{ $terms//*[skos:prefLabel = $broaderTerm]/@rdf:about }'> </skos:TA>
+                    }
+                    {
+                        for $narrowerTerm in $term/skos:HE
+                        return <skos:HE rdf:resource='{ $terms//*[skos:prefLabel = $narrowerTerm]/@rdf:about }'> </skos:HE>
+                    }
+                    {
+                        for $relatedTerm in $term/skos:KA
+                        return <skos:KA rdf:resource='{ $terms//*[skos:prefLabel = $relatedTerm]/@rdf:about }'> </skos:KA>
+                    }
+                </skos:Concept>
+    }
+    </result>

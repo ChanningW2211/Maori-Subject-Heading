@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <record rdf:about="http://national.library.records/#9912854563502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9914636883502836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4remata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9914836783502836">
+        <tag rdf:resource="http://maori.subject.headings/#Pakeke%20whai%20m%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9915362983502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9915885303502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4%20uri%20o%20Tangaroa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rimutai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9915885343502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4%20uri%20o%20Tangaroa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rimutai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9915953153502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangatiratanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whakairo%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9915974373502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9915980413502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4tanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916007893502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whatu%20k%E4kahu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Raranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916009783502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9916027033502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916088513502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%F6hio%20ki%20te%20k%F6rero%20pukapuka"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCtaiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hangarau%20m%F6hiohio"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916103953502836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Awa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916192723502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916205883502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakapono"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCr%E4kau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pai%20M%E4rire"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6rokohanga%20o%20te%20ao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Atua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ao%20wairua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916208473502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916211943502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaiako"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20rua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916309513502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916368203502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916369653502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916369913502836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FC%E4whiotanga%20whanonga%20%E4-hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%F6rangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tahumaero"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916372993502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916485683502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20tuatahi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916519493502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9916576963502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916577023502836">
+        <tag rdf:resource="http://maori.subject.headings/#He%20Wakaputanga%20o%20te%20Rangatiratanga%20o%20Niu%20Tireni"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaaturanga%20toi%20ataata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hunga%20mahi%20toi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tino%20rangatiratanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916592103502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tuku%20iho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rongo%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kawa%20whakaruruhau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916592303502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%F6hiotanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916684613502836">
+        <tag rdf:resource="http://maori.subject.headings/#Rongo%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wairua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916687783502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mate"/>
+        <tag rdf:resource="http://maori.subject.headings/#Take%20hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga%20taupori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916707683502836">
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki%20nohinohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hungahunga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916708883502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ahu%20whenua"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakihi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916715613502836">
+        <tag rdf:resource="http://maori.subject.headings/#Rongo%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wairua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916717283502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916717403502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916717443502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916717513502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916717903502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916851333502836">
+        <tag rdf:resource="http://maori.subject.headings/#Pakeke%20whai%20m%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4konga"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916852433502836">
+        <tag rdf:resource="http://maori.subject.headings/#Pakeke%20whai%20m%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916863823502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hunga%20mahi%20toi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waka%20toi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tango%20whakaahua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Turi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taitamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916864763502836">
+        <tag rdf:resource="http://maori.subject.headings/#Awa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916881563502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916886923502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916890383502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916890433502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916893043502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4tanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916976473502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taip%FCwhenuatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tua%20taip%FCwhenuatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20wahine"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985033502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985193502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#R%E4hui"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985203502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985243502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985263502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pukapuka%20whakaahua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916985293502836">
+        <tag rdf:resource="http://maori.subject.headings/#Pahikara"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20%E4-waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pukapuka%20whakaahua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916989573502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9916989653502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9916989763502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9916991593502836">
+        <tag rdf:resource="http://maori.subject.headings/#Aromatawai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9916994453502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20p%FChou"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917089813502836">
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hi%20tapu"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917095123502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20wh%EBkau%20pukupuku"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917109773502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917109793502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917109813502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917110963502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917111003502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917116653502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917129713502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917151933502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4%20uri%20o%20Tangaroa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rimutai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917179093502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tua"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hungahunga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki%20nohinohi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917180223502836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4ramatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917212153502836">
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga%20whanaketanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917227713502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917240043502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tango%20whakaahua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Marae"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917305323502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ororeo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Aratohu%20m%E4%20te%20pouako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hangarau%20m%F6hiohio"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917324853502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917338563502836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6p%FC%20pukupuku"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20tangata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917353633502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917358183502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917358383502836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whakahaere"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whenua%20raupatu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ahi%20k%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tino%20rangatiratanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%F6rangap%FC"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917369473502836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917384953502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4tanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917391373502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917408323502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917502243502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917513483502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakahaere%20kaimahi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kawa%20whakaruruhau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaiako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20tuarua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917514893502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917571573502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917610303502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917620103502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917622533502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917661753502836">
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917661793502836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hungahunga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki%20nohinohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805153502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805193502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805203502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805213502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805223502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805233502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919052471802836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wairua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919052771502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919052869702836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tohu%20m%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919052869902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919056971602836">
+        <tag rdf:resource="http://maori.subject.headings/#Hapori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hononga%20h%E4ngai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapakari%20%E4-iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919057186302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919057186402836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919057319002836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919057320902836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919057321002836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919058356702836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919058356802836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919058356902836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919058359402836">
+        <tag rdf:resource="http://maori.subject.headings/#Wharekura"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tua"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4konga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919058573602836">
+        <tag rdf:resource="http://maori.subject.headings/#Marae%20%E4-kura"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20w%E4nanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919059073202836">
+        <tag rdf:resource="http://maori.subject.headings/#T%E4poi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060259702836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#R%E4rangi%20pouaka%20whakaata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20whakahaere"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060259902836">
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20whakahaere"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#R%E4rangi%20pouaka%20whakaata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060368202836">
+        <tag rdf:resource="http://maori.subject.headings/#Kararehe%20kaikino"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tarutaru"/>
+        <tag rdf:resource="http://maori.subject.headings/#Koiora%20orot%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060769802836">
+        <tag rdf:resource="http://maori.subject.headings/#Kai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Manaakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Toko%20i%20te%20ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060961202836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Aronganui"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kupu%20whakarite"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060961502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060961602836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060961902836">
+        <tag rdf:resource="http://maori.subject.headings/#Aratohu%20m%E4%20te%20pouako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919060962002836">
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919068404802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919073373302836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919073972102836">
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCtea"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4huatanga%20%F6hanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919075172802836">
+        <tag rdf:resource="http://maori.subject.headings/#Waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919076170302836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919076471202836">
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi%20%E4-ipurangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919078271502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20rerek%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tua%20taip%FCwhenuatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079059502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapakari%20%E4-iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079060902836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079269902836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hurutanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4rurenga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079361202836">
+        <tag rdf:resource="http://maori.subject.headings/#P%FCtaiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079369502836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4-wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079470402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919079563602836">
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20noho"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079964802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919079965402836">
+        <tag rdf:resource="http://maori.subject.headings/#Hine-p%FCkohu-rangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCr%E4kau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakiwaituhi"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20hunga%20taiohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pepeha"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079967302836">
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20noho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919079972402836">
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20whakatuatea"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919080069202836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4ngarau"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%F6hio%20ki%20te%20tatau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919083163502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20rua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tauiwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hui"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919083170802836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Huringa%20%E4huarangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919083572802836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20ake"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919090166102836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919090273102836">
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wahakura"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919090671802836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hungahunga"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919090672802836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919090672902836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919090673002836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919093072902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919093073402836">
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919093271402836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919095968002836">
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hungahunga"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919099902502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919099907302836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tuku%20iho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919104909902836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tangata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919104910302836">
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20noho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tangata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919106009902836">
+        <tag rdf:resource="http://maori.subject.headings/#R%F6p%FC%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919109408202836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919114707702836">
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mate"/>
+        <tag rdf:resource="http://maori.subject.headings/#Atawhai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919114707802836">
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mate"/>
+        <tag rdf:resource="http://maori.subject.headings/#Atawhai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919114908702836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919114908902836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20akuaku"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tuku%20kano%20%E4rai%20mate"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4nuitanga%20whakatairanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919114909002836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919124914402836">
+        <tag rdf:resource="http://maori.subject.headings/#Ororeo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919129860802836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ahu%20whenua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919133826102836">
+        <tag rdf:resource="http://maori.subject.headings/#Huringa%20%E4huarangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga%20whanaketanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20t%FCtei"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919135882502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919136085702836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919139063002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919139072502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20tiaki%20tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919142369602836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20tiaki%20tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919142673202836">
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hine"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20wahine"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919147877602836">
+        <tag rdf:resource="http://maori.subject.headings/#T%E4one%20nui"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919148082402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919148085802836">
+        <tag rdf:resource="http://maori.subject.headings/#Uiuitanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919153568702836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919153681302836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919153690502836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaum%E4tua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Atawhai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919154090402836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakawetitanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919162694402836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4-wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Aukati%20t%FCkinotanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919164732202836">
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ne"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Awa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919175178902836">
+        <tag rdf:resource="http://maori.subject.headings/#Whiwhinga%20mahi"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919177771002836">
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4huatanga%20p%E4pori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919177771102836">
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4huatanga%20p%E4pori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919178077602836">
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918880069902836">
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanaungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Toko%20i%20te%20ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hara"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakawhitiwhitinga%20k%F6rero"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918880070002836">
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hara"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918897070002836">
+        <tag rdf:resource="http://maori.subject.headings/#Utu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20putaiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4one%20nui"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20noho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Parakaingaki"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCnaha%20parakaingaki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918897071402836">
+        <tag rdf:resource="http://maori.subject.headings/#Papak%E4inga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918897073402836">
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20tukunga%20k%F6rero"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918932173402836">
+        <tag rdf:resource="http://maori.subject.headings/#Koiora%20orot%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918932173602836">
+        <tag rdf:resource="http://maori.subject.headings/#Koiora%20orot%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918932871802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918938673002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918939370702836">
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918941069802836">
+        <tag rdf:resource="http://maori.subject.headings/#Tohu%20m%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20tuarua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918944873202836">
+        <tag rdf:resource="http://maori.subject.headings/#Koiora%20orot%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918954673302836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918954673602836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918957164502836">
+        <tag rdf:resource="http://maori.subject.headings/#R%FC%20whenua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918957166602836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918957265202836">
+        <tag rdf:resource="http://maori.subject.headings/#Tuhinga%20n%E4%20te%20hunga%20tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918957370402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918957662702836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918957662802836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918959073402836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918961473102836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918967173502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918967272302836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918967768702836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918968073602836">
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20o%20te%20K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%F6rangap%FC"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918968171702836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918968171902836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918968172002836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tohutohu%20whaiara"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918968266302836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Awa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wai%20m%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918977657602836">
+        <tag rdf:resource="http://maori.subject.headings/#Taiohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCnaha%20ture%20taihara"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918977865902836">
+        <tag/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918977866402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918977873302836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4p%E4ho"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918981473302836">
+        <tag rdf:resource="http://maori.subject.headings/#Inenga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918982269702836">
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918982269802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918982269902836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hanga%20o%20te%20tau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918982270002836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hanga%20o%20te%20tau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918982270102836">
+        <tag rdf:resource="http://maori.subject.headings/#Panga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918982270202836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918985071902836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20urut%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pukapuka%20whakaahua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918988263702836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918988359502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20tiaki%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%EBp%EB"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918991263702836">
+        <tag rdf:resource="http://maori.subject.headings/#Ako-%E4-matihiko"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taitamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918991870102836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kahungatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918991871702836">
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918991873102836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4tanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918994352002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918994371702836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20whakamomori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918995872502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whenua%20r%E4hui"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918995872602836">
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whenua%20r%E4hui"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918997271202836">
+        <tag rdf:resource="http://maori.subject.headings/#P%FCkohu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Manga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kounga%20o%20te%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918997271302836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4ngara"/>
+        <tag rdf:resource="http://maori.subject.headings/#Manga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kounga%20o%20te%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919002962302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20taumata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919002963402836">
+        <tag rdf:resource="http://maori.subject.headings/#Taiohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taitamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919010362102836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919011926002836">
+        <tag rdf:resource="http://maori.subject.headings/#Huringa%20%E4huarangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20mahana%20haere%20o%20te%20ao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919016072102836">
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919016355402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919016555502836">
+        <tag rdf:resource="http://maori.subject.headings/#Wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Parakaingaki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919016555702836">
+        <tag rdf:resource="http://maori.subject.headings/#Wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919016572502836">
+        <tag rdf:resource="http://maori.subject.headings/#%C4rai%20whara"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919028267802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919029071502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mauhere"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tohu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaikarakia"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919029767902836">
+        <tag rdf:resource="http://maori.subject.headings/#Waka"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4keh%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taip%FCwhenuatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Ao%20Hurihuri"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919030266602836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919031368602836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kuputaka"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919031369602836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waihanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki%20nohinohi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035171902836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakawhitiwhitinga%20k%F6rero"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4p%E4ho"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172002836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tuakiri"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172102836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whiwhinga%20mahi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172202836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hapori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Ataarangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172402836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Ataarangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919035172502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Ataarangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919037382602836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919037392102836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919037392302836">
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919037515002836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Aromatawai%20%E4-paerewa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919037515202836">
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga%20whanaketanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919039366102836">
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6hanga%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919039558902836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20paki%20m%E4%20ng%E4%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pukapuka%20whakaahua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tunu%20kai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919039560102836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakah%E4wea%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi%20taketake"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919039560202836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakah%E4wea%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi%20taketake"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919040069402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919040259202836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4p%E4ho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaip%E4ho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Paerewa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919040666302836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919044967502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919044968202836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919045763602836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919045966602836">
+        <tag rdf:resource="http://maori.subject.headings/#%C4konga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tauiwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919046152302836">
+        <tag rdf:resource="http://maori.subject.headings/#Kararehe%20kaikino"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tarutaru"/>
+        <tag rdf:resource="http://maori.subject.headings/#Koiora%20orot%E4"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919046153002836">
+        <tag rdf:resource="http://maori.subject.headings/#Wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kounga%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919046258402836">
+        <tag rdf:resource="http://maori.subject.headings/#KOWHEORI-19"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiohi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taitamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919050572002836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kahungatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Toko%20i%20te%20ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919051272102836">
+    </record>
+    <record rdf:about="http://national.library.records/#9919051272302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kuputaka"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919051272502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%F6rangap%FC"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taip%FCwhenuatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangatira"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9919052471702836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiakitanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141558302836">
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Raweke%20ira%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matatika"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141559202836">
+        <tag rdf:resource="http://maori.subject.headings/#Ira%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matatika"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Raweke%20ira%20tangata"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141560302836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakapapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ira%20tangata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matatika"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141959702836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4%20uri%20o%20Tangaroa"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Takutai%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20paki%20m%E4%20ng%E4%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tangaroa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918144343502836">
+        <tag rdf:resource="http://maori.subject.headings/#Takat%E4pui"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918144770102836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918145643902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918147969202836">
+        <tag rdf:resource="http://maori.subject.headings/#Ng%E4%20uri%20o%20Tangaroa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4kau%20p%F6hatuhatu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Takutai%20moana"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918150529702836">
+        <tag rdf:resource="http://maori.subject.headings/#Taitamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Toko%20i%20te%20ora"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4oritanga"/>
+        <tag/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918151752402836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kahungatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918156265202836">
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20putaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918158872102836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mahinga%20kai%20o%20te%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918158934202836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918158940002836">
+        <tag rdf:resource="http://maori.subject.headings/#R%FC%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918158940202836">
+        <tag rdf:resource="http://maori.subject.headings/#R%FC%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumarutanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918160373402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918162841302836">
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918165669302836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918165670202836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918165670402836">
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918166668802836">
+        <tag rdf:resource="http://maori.subject.headings/#Kapuni"/>
+        <tag rdf:resource="http://maori.subject.headings/#Waiariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCngao%20ng%E4wh%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918167568302836">
+        <tag rdf:resource="http://maori.subject.headings/#Ture%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakatau%20mauri"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whenua%20tautohetohe"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918174650802836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pono%20m%E4%20te%20tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCr%E4kau"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%FCpuna"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20nehe"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918174958402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918174963102836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918174963502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918180271202836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918181270802836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakiwaituhi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pakiwaitara"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918184773402836">
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4ngata%20whenua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918188168602836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakam%E4tau%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918193066502836">
+        <tag rdf:resource="http://maori.subject.headings/#Hau%E4tanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918193170502836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918193353802836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20wh%EBkau%20pukupuku"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918193353902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918193354002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918196366602836">
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hangarua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918196371102836">
+        <tag rdf:resource="http://maori.subject.headings/#Tarutaru"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kararehe"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918199651702836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4rurenga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918200042802836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918200043102836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918203568002836">
+        <tag rdf:resource="http://maori.subject.headings/#P%E4rurenga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918205265202836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918205265302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918205265402836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918205265502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918205265602836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918206273202836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918206273302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918206273402836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918206273502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918208562702836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918210770502836">
+        <tag/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Wait%E4"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Waipuna-a-rangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hiwa-i-te-rangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tupu%E4rangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ururangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tupu%E4nuku"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai%20arorangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hanga%20o%20te%20tau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whet%FC"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau%20m%E4rama"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai%20whet%FC"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4nui%20whakaahua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Maramataka"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918210771102836">
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai%20arorangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hanga%20o%20te%20tau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whet%FC"/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau%20m%E4rama"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai%20whet%FC"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ngohe"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918217347302836">
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga%20rua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918220062902836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakaaturanga%20toi%20ataata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mautohe"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918262651702836">
+        <tag rdf:resource="http://maori.subject.headings/#Hangarau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hangarau%20m%F6hiohio"/>
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rorohiko"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ipurangi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918568765802836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kura%20kaupapa%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20wetereo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Ao%20Hurihuri"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918571167502836">
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20pukapuka"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918571270102836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918571270202836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918571846702836">
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918572766702836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918573870402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918576954902836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kahungatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918578865502836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918578867302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918580367402836">
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20tinana"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%F6uri"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCkatokato"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rongo%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tikanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ora"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918580370302836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918582973302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakaora%20reo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918587068402836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4one%20nui"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918589163102836">
+        <tag rdf:resource="http://maori.subject.headings/#Marae"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapakari%20%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tahua%20p%FCtea"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918647067502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918741248002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918743456102836">
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20toi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rautaki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918755452102836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaum%E4tua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whare%20noho"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapakari%20%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Moemoe%E4"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918758568802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918758772802836">
+        <tag rdf:resource="http://maori.subject.headings/#Hui"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakapapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangatiratanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#R%E4punga%20whakaaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tuhinga%20auaha"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918759669302836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ture"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918762563102836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20pukupuku%20repe%20t%E4tea"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918779065202836">
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kounga%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaupapa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whanake%20taiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918779150002836">
+        <tag rdf:resource="http://maori.subject.headings/#H%E4hi%20Karaitiana"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918808269902836">
+        <tag rdf:resource="http://maori.subject.headings/#Hui"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCnaha%20ture%20taihara"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Muru"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918808270002836">
+        <tag rdf:resource="http://maori.subject.headings/#Hui"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%FCnaha%20ture%20taihara"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%E4wanatanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noho-%E4-iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Muru"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918809871702836">
+        <tag rdf:resource="http://maori.subject.headings/#Mate%20whakamomori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiohi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918810564702836">
+        <tag/>
+        <tag/>
+        <tag/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918818868802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918818868902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918818869002836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918821659102836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#Wh%E4nau"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918821659302836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#H%E4kinakina"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918821659602836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ako"/>
+        <tag rdf:resource="http://maori.subject.headings/#Matareo"/>
+        <tag rdf:resource="http://maori.subject.headings/#P%E4nui%20whakaahua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hangarau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rauemi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918821659802836">
+        <tag rdf:resource="http://maori.subject.headings/#Reo%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918822758402836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whakahaere"/>
+        <tag rdf:resource="http://maori.subject.headings/#Umanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918822770402836">
+        <tag rdf:resource="http://maori.subject.headings/#Huringa%20%E4huarangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918826161102836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#%C4huatanga%20p%E4pori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918826168802836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918842468402836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918850567702836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918872770102836">
+        <tag rdf:resource="http://maori.subject.headings/#Tapu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Noa"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918878868402836">
+        <tag rdf:resource="http://maori.subject.headings/#Karakia"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805243502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805263502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805293502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805303502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805403502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805423502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805443502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805453502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805463502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805473502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805493502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805503502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917805533502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829013502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9917829723502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829743502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829753502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829773502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829793502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829813502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829823502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829833502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829873502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829883502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829903502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829913502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829923502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829933502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829943502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829953502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829963502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917829973502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830003502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830033502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830793502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830803502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830813502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830823502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830883502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830903502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830923502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830933502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830943502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830953502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830963502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917830973502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831033502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831043502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831053502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831063502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831083502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831093502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831103502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831193502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831203502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831213502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831223502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831233502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831243502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831253502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831273502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831293502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831373502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831383502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831393502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831403502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831423502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831433502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831443502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831503502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831513502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831543502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831553502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831563502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831583502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831593502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831603502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831613502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831633502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831643502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917831653502836">
+        <tag rdf:resource="http://maori.subject.headings/#Tatauranga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Iwi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837333502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakaaotanga"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tiriti%20o%20Waitangi"/>
+        <tag rdf:resource="http://maori.subject.headings/#%D6hanga%20whanaketanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837813502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20waim%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837823502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20waim%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837843502836">
+        <tag rdf:resource="http://maori.subject.headings/#Te%20Wao%20nui%20a%20T%E4ne"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837853502836">
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837873502836">
+        <tag rdf:resource="http://maori.subject.headings/#Ahu%20whenua"/>
+        <tag rdf:resource="http://maori.subject.headings/#T%FCkinotanga%20%E4%20taiao"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917837893502836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20o%20te%20wai"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ika%20waim%E4ori"/>
+        <tag rdf:resource="http://maori.subject.headings/#M%E4tauranga%20taupuhi%20kaiao%20wai"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9917856993502836">
+        <tag rdf:resource="http://maori.subject.headings/#Whakaaturanga%20toi%20ataata"/>
+        <tag rdf:resource="http://maori.subject.headings/#Tuakiri"/>
+        <tag rdf:resource="http://maori.subject.headings/#Mahi%20toi"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918075273502836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918130124102836">
+        <tag rdf:resource="http://maori.subject.headings/#Tamariki"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora%20wh%E4nau"/>
+        <tag rdf:resource="http://maori.subject.headings/#Ratonga%20ki%20te%20iwi"/>
+        <tag rdf:resource="http://maori.subject.headings/#Hauora"/>
+        <tag rdf:resource="http://maori.subject.headings/#H%FCnuku"/>
+        <tag rdf:resource="http://maori.subject.headings/#Rangahau%20M%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918130753902836">
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Pae%20p%E4p%E4ho%20p%E4pori"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918130754102836">
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918130754202836">
+        <tag rdf:resource="http://maori.subject.headings/#Ingoa"/>
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918137060702836">
+        <tag rdf:resource="http://maori.subject.headings/#Reorua"/>
+        <tag rdf:resource="http://maori.subject.headings/#Whakam%E4ori"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918137867702836">
+        <tag rdf:resource="http://maori.subject.headings/#Papakupu"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918138472902836">
+    </record>
+    <record rdf:about="http://national.library.records/#9918140471702836">
+        <tag rdf:resource="http://maori.subject.headings/#Mana%20whakairo%20hinengaro"/>
+        <tag rdf:resource="http://maori.subject.headings/#W%E4hi%20tapu"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141072502836">
+        <tag rdf:resource="http://maori.subject.headings/#Pakiwaitara"/>
+        <tag rdf:resource="http://maori.subject.headings/#Haumaru%20huarahi"/>
+        <tag/>
+        <tag rdf:resource="http://maori.subject.headings/#T%E4tai%20whet%FC"/>
+        <tag rdf:resource="http://maori.subject.headings/#K%F6rero%20paki%20m%E4%20ng%E4%20tamariki"/>
+    </record>
+    <record rdf:about="http://national.library.records/#9918141549302836">
+        <tag rdf:resource="http://maori.subject.headings/#Rohe%20k%F6reporepo"/>
+        <tag rdf:resource="http://maori.subject.headings/#Kaitiakitanga"/>
+    </record>
+</rdf:RDF>
