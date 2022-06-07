@@ -18,7 +18,7 @@ public class IndexModel : PageModel
 
     public void OnGet() { }
 
-    [BindProperty]
+    [BindProperty(SupportsGet=true)]
     public string? Term { get; set; }
 
     public async Task<IActionResult> OnPostAsync()
