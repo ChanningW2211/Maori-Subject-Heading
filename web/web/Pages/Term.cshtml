@@ -1,17 +1,19 @@
 ﻿@page  "{searchString}"
 @model web.TermModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
 @{
     var term = (TermModel.Term)ViewData["term"];
 }
 
 <h2>@term.PrefLabel</h2>
 
-<h6>Whakamārama</h6>
-<ul>
-    <li> @term.Whakamārama </li>
-</ul>
+@if (!string.IsNullOrEmpty(term.ScopeNote))
+{
+    <h6>Whakamārama</h6>
+    <ul>
+        <li> @term.Whakamārama </li>
+    </ul>
+}
 
 @if (!string.IsNullOrEmpty(term.ScopeNote))
 {
@@ -21,16 +23,17 @@
     </ul>
 }
 
-
-<h6>English used for</h6>
-<ul>
-    <li> @term.AltLabel </li>
-    @foreach (var label in term.UsedFor)
-    {
-        <li>@label</li>
-    }
-</ul>
-
+@if (!string.IsNullOrEmpty(term.AltLabel))
+{
+    <h6>English used for</h6>
+    <ul>
+        <li> @term.AltLabel </li>
+        @foreach (var label in term.UsedFor)
+        {
+            <li>@label</li>
+        }
+    </ul>
+}
 
 @if (term.BroaderTerm.Count() > 0)
 {
@@ -47,8 +50,6 @@
     </ul>
 }
 
-
-
 @if (term.NarrowerTerm.Count() > 0)
 {
     <h6>Heke/Narrower terms</h6>
@@ -63,7 +64,6 @@
         }
     </ul>
 }
-
 
 @if (term.RelatedTerm.Count() > 0)
 {
