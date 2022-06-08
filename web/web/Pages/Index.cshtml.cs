@@ -6,12 +6,13 @@ using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 
 
-namespace web.Pages;
+namespace web;
 
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
     private readonly IHttpClientFactory _httpClientFactory;
+    public static List<string> result;
 
     public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory httpClientFactory)
     {
@@ -40,12 +41,13 @@ public class IndexModel : PageModel
 
         string result = JObject.Parse(response.Content.ReadAsStringAsync().Result)["values"].ToString();
         string pattern = @"""(.*?)""";
-        List<string> terms = new List<string>();
+        List<string> uris = new List<string>();
         foreach (Match match in Regex.Matches(result, pattern))
         {
-            terms.Add(match.Groups[1].Value);
+            uris.Add(match.Groups[1].Value);
         }
-        
-        return RedirectToPage("Term", new { searchString = terms.FirstOrDefault() });
+
+        IndexModel.result = uris;
+        return RedirectToPage ("Result");
     }
 }

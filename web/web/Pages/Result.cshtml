@@ -1,5 +1,18 @@
 ﻿@page
 @model web.ResultModel
 @{
+    var uris = (List<string>)ViewData["result"];
 }
+
+<h2>Result</h2>
+<ul>
+    @foreach (var uri in uris)
+    {
+        <li>
+            <a asp-area="" asp-page=Term asp-route-searchString=@uri>
+                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(uri, "#(.*?)>").Groups[1].Value)
+            </a>
+        </li>
+    }
+</ul>
 
