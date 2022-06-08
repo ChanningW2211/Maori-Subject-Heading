@@ -13,10 +13,14 @@
     <li> @term.Whakamārama </li>
 </ul>
 
-<h6>ScopeNote</h6>
-<ul>
-    <li> @term.ScopeNote</li>
-</ul>
+@if (!string.IsNullOrEmpty(term.ScopeNote))
+{
+    <h6>ScopeNote</h6>
+    <ul>
+        <li> @term.ScopeNote</li>
+    </ul>
+}
+
 
 <h6>English used for</h6>
 <ul>
@@ -27,39 +31,53 @@
     }
 </ul>
 
-<h6>Tāhuhu/Broader terms</h6>
-<ul>
-    @foreach (var broaderTerm in term.BroaderTerm)
-    {
-        <li>
-            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(broaderTerm)>
-                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(broaderTerm, "#(.*?)>").Groups[1].Value)
-            </a>
-        </li>
-    }
-</ul>
 
-<h6>Heke/Narrower terms</h6>
-<ul>
-    @foreach (var narrowerTerm in term.NarrowerTerm)
-    {
-        <li>
-            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(narrowerTerm)>
-                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(narrowerTerm, "#(.*?)>").Groups[1].Value)
-            </a>
-        </li>
-    }
-</ul>
+@if (term.BroaderTerm.Count() > 0)
+{
+    <h6>Tāhuhu/Broader terms</h6>
+    <ul>
+        @foreach (var broaderTerm in term.BroaderTerm)
+        {
+            <li>
+                <a asp-area="" asp-page=Term asp-route-searchString=@broaderTerm>
+                    @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(broaderTerm, "#(.*?)>").Groups[1].Value)
+                </a>
+            </li>
+        }
+    </ul>
+}
 
-<h6>Kaho/Related terms</h6>
-<ul>
-    @foreach (var relatedTerm in term.RelatedTerm)
-    {
-        <li>
-            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(relatedTerm)>
-                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(relatedTerm, "#(.*?)>").Groups[1].Value)
-            </a>
-        </li>
-    }
-</ul>
+
+
+@if (term.NarrowerTerm.Count() > 0)
+{
+    <h6>Heke/Narrower terms</h6>
+    <ul>
+        @foreach (var narrowerTerm in term.NarrowerTerm)
+        {
+            <li>
+                <a asp-area="" asp-page=Term asp-route-searchString=@narrowerTerm>
+                    @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(narrowerTerm, "#(.*?)>").Groups[1].Value)
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
+@if (term.RelatedTerm.Count() > 0)
+{
+    <h6>Kaho/Related terms</h6>
+    <ul>
+        @foreach (var relatedTerm in term.RelatedTerm)
+        {
+            <li>
+                <a asp-area="" asp-page=Term asp-route-searchString=@relatedTerm>
+                    @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(relatedTerm, "#(.*?)>").Groups[1].Value)
+                </a>
+            </li>
+        }
+    </ul>
+}
+
 

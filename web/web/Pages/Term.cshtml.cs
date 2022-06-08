@@ -55,12 +55,7 @@ namespace web
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
             StringBuilder uri = new StringBuilder();
             uri.Append("test?query=");
-            string query = string.Format(@"SELECT ?p ?o {{{0} ?p ?o }}", searchString
-                .Replace("%2f", "/", StringComparison.OrdinalIgnoreCase)
-                .Replace("%3c", "<", StringComparison.OrdinalIgnoreCase)
-                .Replace("%3a", ":", StringComparison.OrdinalIgnoreCase)
-                .Replace("%23", "#", StringComparison.OrdinalIgnoreCase)
-                .Replace("%3e", ">", StringComparison.OrdinalIgnoreCase));
+            string query = string.Format(@"SELECT ?p ?o {{{0} ?p ?o }}", searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase));
             uri.Append(HttpUtility.UrlEncode(query));
             HttpResponseMessage response = await client.GetAsync(uri.ToString());
 
