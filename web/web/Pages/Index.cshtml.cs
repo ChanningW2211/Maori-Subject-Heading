@@ -22,7 +22,7 @@ public class IndexModel : PageModel
     public void OnGet() { }
 
     [BindProperty]
-    public string? Term { get; set; }
+    public string searchString { get; set; }
 
     public async Task<IActionResult> OnPostAsync()
     {
@@ -34,18 +34,18 @@ public class IndexModel : PageModel
             @"SELECT distinct ?s {{
             optional {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
             optional {{ ?s <http://www.w3.org/2008/05/skos#usedFor> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
-            optional {{ ?s <http://www.w3.org/2008/05/skos#altLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}}}", Term?.ToLower());
+            optional {{ ?s <http://www.w3.org/2008/05/skos#altLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}}}", searchString?.ToLower());
         uri.Append(HttpUtility.UrlEncode(query));
         HttpResponseMessage response = await client.GetAsync(uri.ToString());
 
-        var result = JObject.Parse(response.Content.ReadAsStringAsync().Result)["values"];
+        string result = JObject.Parse(response.Content.ReadAsStringAsync().Result)["values"].ToString();
         string pattern = @"""(.*?)""";
         List<string> terms = new List<string>();
-        foreach (Match match in Regex.Matches(result.ToString(), pattern))
+        foreach (Match match in Regex.Matches(result, pattern))
         {
-            terms.Add(match.Groups[0].Value);
+            terms.Add(match.Groups[1].Value);
         }
         
-        return RedirectToPage("Term", new { term = terms.FirstOrDefault() });
+        return RedirectToPage("Term", new { searchString = terms.FirstOrDefault() });
     }
 }

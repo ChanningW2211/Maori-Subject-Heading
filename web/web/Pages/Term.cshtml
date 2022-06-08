@@ -1,17 +1,65 @@
-﻿@page "{term}"
+﻿@page  "{searchString}"
 @model web.TermModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
+@{
+    var term = (TermModel.Term)ViewData["term"];
+}
 
-<h2>Whakamārama</h2>
+<h2>@term.PrefLabel</h2>
+
+<h6>Whakamārama</h6>
 <ul>
-    <li> test </li>
+    <li> @term.Whakamārama </li>
 </ul>
 
-@*<ul>
-    @for (int i = 0; i < (int)ViewData["NumTimes"]!; i++)
+<h6>ScopeNote</h6>
+<ul>
+    <li> @term.ScopeNote</li>
+</ul>
+
+<h6>English used for</h6>
+<ul>
+    <li> @term.AltLabel </li>
+    @foreach (var label in term.UsedFor)
     {
-        <li>@ViewData["Message"]</li>
+        <li>@label</li>
     }
-</ul>*@
+</ul>
+
+<h6>Tāhuhu/Broader terms</h6>
+<ul>
+    @foreach (var broaderTerm in term.BroaderTerm)
+    {
+        <li>
+            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(broaderTerm)>
+                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(broaderTerm, "#(.*?)>").Groups[1].Value)
+            </a>
+        </li>
+    }
+</ul>
+
+<h6>Heke/Narrower terms</h6>
+<ul>
+    @foreach (var narrowerTerm in term.NarrowerTerm)
+    {
+        <li>
+            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(narrowerTerm)>
+                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(narrowerTerm, "#(.*?)>").Groups[1].Value)
+            </a>
+        </li>
+    }
+</ul>
+
+<h6>Kaho/Related terms</h6>
+<ul>
+    @foreach (var relatedTerm in term.RelatedTerm)
+    {
+        <li>
+            <a asp-area="" asp-page=Term asp-route-searchString=@System.Web.HttpUtility.UrlEncode(relatedTerm)>
+                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(relatedTerm, "#(.*?)>").Groups[1].Value)
+            </a>
+        </li>
+    }
+</ul>
 
