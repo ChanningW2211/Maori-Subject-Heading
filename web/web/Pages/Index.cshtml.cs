@@ -48,6 +48,7 @@ public class IndexModel : PageModel
         }
 
         IndexModel.result = uris;
+        if (uris.Count() == 0) return Redirect("Error");
         return RedirectToPage ("Result");
     }
 }
