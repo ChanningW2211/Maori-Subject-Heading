@@ -18,7 +18,7 @@ namespace web
         private const string usedFor = @"<http://www.w3.org/2008/05/skos#usedFor>";
 
         private const string whakamārama = @"<http://www.w3.org/2008/05/skos#whakamārama>";
-        private const string scopeNote = @"<http://www.w3.org/2008/05/skos#scopeNote>""";
+        private const string scopeNote = @"<http://www.w3.org/2008/05/skos#scopeNote>";
 
         private const string related = @"<http://www.w3.org/2008/05/skos#related>";
         private const string narrower = @"<http://www.w3.org/2008/05/skos#narrower>";
