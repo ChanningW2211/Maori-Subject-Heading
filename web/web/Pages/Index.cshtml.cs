@@ -2,53 +2,54 @@
 using System.Web;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
-using System.Text.RegularExpressions;
+using System.Text.Json;
 
 
-namespace web;
-
-public class IndexModel : PageModel
+namespace web
 {
-    private readonly ILogger<IndexModel> _logger;
-    private readonly IHttpClientFactory _httpClientFactory;
-    public static List<string> result;
-
-    public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory httpClientFactory)
+    public class IndexModel : PageModel
     {
-        _logger = logger;
-        _httpClientFactory = httpClientFactory;
-    }
+        private readonly ILogger<IndexModel> _logger;
+        private readonly IHttpClientFactory _httpClientFactory;
+        public static List<string> result;
 
-    public void OnGet() { }
+        public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory httpClientFactory)
+        {
+            _logger = logger;
+            _httpClientFactory = httpClientFactory;
+        }
 
-    [BindProperty]
-    public string searchString { get; set; }
+        public void OnGet() { }
 
-    public async Task<IActionResult> OnPostAsync()
-    {
-        HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
+        [BindProperty]
+        public string searchString { get; set; }
 
-        StringBuilder uri = new StringBuilder();
-        uri.Append("test?query=");
-        string query = string.Format(
-            @"SELECT distinct ?s {{
+        public async Task<IActionResult> OnPostAsync()
+        {
+            HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
+
+            StringBuilder uri = new StringBuilder();
+            uri.Append("test?query=");
+            string query = string.Format(
+                @"SELECT distinct ?s {{
             optional {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
             optional {{ ?s <http://www.w3.org/2008/05/skos#usedFor> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
             optional {{ ?s <http://www.w3.org/2008/05/skos#altLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}}}", searchString?.ToLower());
-        uri.Append(HttpUtility.UrlEncode(query));
-        HttpResponseMessage response = await client.GetAsync(uri.ToString());
+            uri.Append(HttpUtility.UrlEncode(query));
+            HttpResponseMessage response = await client.GetAsync(uri.ToString());
 
-        string result = JObject.Parse(response.Content.ReadAsStringAsync().Result)["values"].ToString();
-        string pattern = @"""(.*?)""";
-        List<string> uris = new List<string>();
-        foreach (Match match in Regex.Matches(result, pattern))
-        {
-            uris.Add(match.Groups[1].Value);
+            var result = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
+            List<string> iris = new List<string>();
+            foreach (var match in result.values)
+            {
+                iris.Add(match[0]);
+            }
+
+            IndexModel.result = iris;
+
+            if (iris.Count() == 0) return Redirect("Error");
+            return RedirectToPage("Result");
         }
-
-        IndexModel.result = uris;
-        if (uris.Count() == 0) return Redirect("Error");
-        return RedirectToPage ("Result");
     }
 }
+

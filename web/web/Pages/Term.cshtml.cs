@@ -1,9 +1,8 @@
 ﻿using System.Text;
-using System.Text.RegularExpressions;
+using System.Text.Json;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Newtonsoft.Json.Linq;
 
 namespace web
 {
@@ -24,29 +23,6 @@ namespace web
         private const string narrower = @"<http://www.w3.org/2008/05/skos#narrower>";
         private const string broader = @"<http://www.w3.org/2008/05/skos#broader>";
 
-        public class Term
-        {
-            public Term()
-            {
-                RelatedTerm = new List<string>();
-                NarrowerTerm = new List<string>();
-                BroaderTerm = new List<string>();
-                UsedFor = new List<string>();
-            }
-
-            public string PrefLabel { get; set; }
-            public string Tukutuku { get; set; }
-
-            public string AltLabel { get; set; }
-            public List<string> UsedFor { get; set; }
-
-            public string Whakamārama { get; set; }
-            public string ScopeNote { get; set; }
-
-            public List<string> RelatedTerm { get; set; }
-            public List<string> NarrowerTerm { get; set; }
-            public List<string> BroaderTerm { get; set; }
-        }
 
         public TermModel(IHttpClientFactory httpClientFactory) => _httpClientFactory = httpClientFactory;
 
@@ -59,15 +35,13 @@ namespace web
             uri.Append(HttpUtility.UrlEncode(query));
             HttpResponseMessage response = await client.GetAsync(uri.ToString());
 
-            var result = JObject.Parse(response.Content.ReadAsStringAsync().Result)["values"].ToString();
-            string pattern = @"""(.*?)"",\n\s\s\s\s""(.*?)""(.*?"")?";
-            Term term = new Term();
-            foreach (Match match in Regex.Matches(result, pattern))
+            var result = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
+            var term = new Model.Term();
+            foreach (var match in result.values)
             {
-                var key = match.Groups[1].Value;
-                var value = match.Groups[2].Value == "\\" ?
-                    match.Groups[3].Value.Replace("\\", "").Replace("\"",""):
-                    match.Groups[2].Value;
+                var key = match[0];
+                var value = match[1];
+
                 switch (key)
                 {
                     case prefLabel:
@@ -101,6 +75,7 @@ namespace web
                         break;
                 }
             }
+
             ViewData["term"] = term;
 
             return Page();

@@ -2,7 +2,7 @@
 @model web.TermModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
-    var term = (TermModel.Term)ViewData["term"];
+    var term = (Model.Term)ViewData["term"];
 }
 
 <h2>@term.PrefLabel</h2>
