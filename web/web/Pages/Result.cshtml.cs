@@ -11,7 +11,7 @@ namespace web
     {
         public void OnGet()
         {
-            ViewData["result"] = IndexModel.result;
+            ViewData["result"] = Model.result;
         }
     }
 }

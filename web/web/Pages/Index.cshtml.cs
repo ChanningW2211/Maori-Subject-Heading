@@ -11,7 +11,6 @@ namespace web
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly IHttpClientFactory _httpClientFactory;
-        public static List<string> result;
 
         public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory httpClientFactory)
         {
@@ -45,7 +44,7 @@ namespace web
                 iris.Add(match[0]);
             }
 
-            IndexModel.result = iris;
+            Model.result = iris;
 
             if (iris.Count() == 0) return Redirect("Error");
             return RedirectToPage("Result");

@@ -3,6 +3,8 @@
 {
 	public class Model
 	{
+        public static List<string> result;
+
         public class AllegroGraphJsonResult
         {
             public List<string> names { get; set; }
@@ -17,10 +19,11 @@
                 NarrowerTerm = new List<string>();
                 BroaderTerm = new List<string>();
                 UsedFor = new List<string>();
+                Tukutuku = new List<string>();
             }
 
             public string PrefLabel { get; set; }
-            public string Tukutuku { get; set; }
+            public List<string> Tukutuku { get; set; }
 
             public string AltLabel { get; set; }
             public List<string> UsedFor { get; set; }

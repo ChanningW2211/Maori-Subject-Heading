@@ -40,7 +40,7 @@ namespace web
             foreach (var match in result.values)
             {
                 var key = match[0];
-                var value = match[1];
+                var value = match[1].Replace("\"", "");
 
                 switch (key)
                 {
@@ -48,7 +48,7 @@ namespace web
                         term.PrefLabel = value;
                         break;
                     case tukutuku:
-                        term.Tukutuku = value;
+                        term.Tukutuku.Add(value);
                         break;
                     case altLabel:
                         term.AltLabel = value;

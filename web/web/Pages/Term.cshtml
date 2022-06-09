@@ -7,6 +7,17 @@
 
 <h2>@term.PrefLabel</h2>
 
+@if (term.Tukutuku.Count() > 0)
+{
+    <h6>Tukutuku</h6>
+    <ul>
+        @foreach (var label in term.Tukutuku)
+        {
+            <li>@label</li>
+        }
+    </ul>
+}
+
 @if (!string.IsNullOrEmpty(term.ScopeNote))
 {
     <h6>Whakamārama</h6>
