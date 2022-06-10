@@ -31,9 +31,9 @@ namespace web
             uri.Append("test?query=");
             string query = string.Format(
                 @"SELECT distinct ?s {{
-            optional {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
-            optional {{ ?s <http://www.w3.org/2008/05/skos#usedFor> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
-            optional {{ ?s <http://www.w3.org/2008/05/skos#altLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}}}", searchString?.ToLower());
+                optional {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
+                optional {{ ?s <http://www.w3.org/2008/05/skos#usedFor> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
+                optional {{ ?s <http://www.w3.org/2008/05/skos#altLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}}}", searchString?.ToLower());
             uri.Append(HttpUtility.UrlEncode(query));
             HttpResponseMessage response = await client.GetAsync(uri.ToString());
 

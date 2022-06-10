@@ -35,6 +35,20 @@
             public List<string> NarrowerTerm { get; set; }
             public List<string> BroaderTerm { get; set; }
         }
+
+        public class Record
+        {
+            public Record()
+            {
+                Link = new List<string>();
+            }
+
+            public string RecordId { get; set; }
+            public string ISBN { get; set; }
+            public string Title { get; set; }
+
+            public List<string> Link { get; set; }
+        }
     }
 }
 
