@@ -9,9 +9,10 @@ namespace web
 {
 	public class ResultModel : PageModel
     {
-        public void OnGet()
+        public void OnGet(string key)
         {
             ViewData["result"] = Model.result;
+            ViewData["key"] = key;
         }
     }
 }

@@ -29,11 +29,12 @@ namespace web
         public async Task<ActionResult> OnGetAsync(string searchString)
         {
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
+            searchString = searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase);
 
 
             StringBuilder termUri = new StringBuilder();
             termUri.Append("test?query=");
-            string termQuery = string.Format(@"SELECT ?p ?o {{{0} ?p ?o }}", searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase));
+            string termQuery = string.Format(@"SELECT ?p ?o {{{0} ?p ?o }}", searchString);
             termUri.Append(HttpUtility.UrlEncode(termQuery));
             HttpResponseMessage termResponse = await client.GetAsync(termUri.ToString());
             var termResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(termResponse.Content.ReadAsStringAsync().Result);
@@ -80,11 +81,11 @@ namespace web
 
 
             StringBuilder recordUri = new StringBuilder();
-            recordUri.Append("test?query=");
+            recordUri.Append(Model.repository);
             string recordQuery = string.Format(
                 @"SELECT ?s ?p ?o {{ 
                 ?s ?p ?o.
-                ?s <http://national.library.records/#tag> {0}.}}", searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase));
+                ?s <http://national.library.records/#tag> {0}.}}", searchString);
             recordUri.Append(HttpUtility.UrlEncode(recordQuery));
             HttpResponseMessage recordResponse = await client.GetAsync(recordUri.ToString());
             var recordResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(recordResponse.Content.ReadAsStringAsync().Result);
@@ -119,6 +120,29 @@ namespace web
             }
             ViewData["records"] = records.Values.ToList();
 
+
+            StringBuilder broaderUri = new StringBuilder();
+            broaderUri.Append(Model.repository);
+            string broaderQuery = string.Format(@"SELECT ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
+            broaderUri.Append(HttpUtility.UrlEncode(broaderQuery));
+            HttpResponseMessage broaderResponse = await client.GetAsync(broaderUri.ToString());
+            var broaderResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(broaderResponse.Content.ReadAsStringAsync().Result);
+            List<string> broaderIris = new List<string>();
+            foreach (var iri in broaderResult.values) { broaderIris.Add(iri[0]); }
+            Model.result[Model.broaderResult].Clear();
+            Model.result[Model.broaderResult].AddRange(broaderIris);
+
+
+            StringBuilder narrowerUri = new StringBuilder();
+            narrowerUri.Append(Model.repository);
+            string narrowerQuery = string.Format(@"SELECT ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
+            narrowerUri.Append(HttpUtility.UrlEncode(narrowerQuery));
+            HttpResponseMessage narrowerResponse = await client.GetAsync(narrowerUri.ToString());
+            var narrowerResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(narrowerResponse.Content.ReadAsStringAsync().Result);
+            List<string> narrowerIris = new List<string>();
+            foreach (var iri in narrowerResult.values) { narrowerIris.Add(iri[0]); }
+            Model.result[Model.narrowerResult].Clear();
+            Model.result[Model.narrowerResult].AddRange(narrowerIris);
 
             return Page();
         }

@@ -70,7 +70,7 @@
 
 @if (term.BroaderTerm.Count() > 0)
 {
-    <h6>Tāhuhu/Broader terms</h6>
+    <h6>Tāhuhu/Broader terms <a asp-area="" asp-page=Result asp-route-key=@web.Model.broaderResult> [More] </a> </h6> 
     <ul>
         @foreach (var broaderTerm in term.BroaderTerm)
         {
@@ -85,7 +85,7 @@
 
 @if (term.NarrowerTerm.Count() > 0)
 {
-    <h6>Heke/Narrower terms</h6>
+    <h6>Heke/Narrower terms <a asp-area="" asp-page=Result asp-route-key=@web.Model.narrowerResult> [More] </a> </h6>
     <ul>
         @foreach (var narrowerTerm in term.NarrowerTerm)
         {

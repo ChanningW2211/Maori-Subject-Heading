@@ -1,12 +1,13 @@
 ﻿@page
 @model web.ResultModel
 @{
-    var uris = (List<string>)ViewData["result"];
+    var result = (Dictionary<string, List<string>>)ViewData["result"];
+    var key = (string)ViewData["key"];
 }
 
 <h2>Result</h2>
 <ul>
-    @foreach (var uri in uris)
+    @foreach (var uri in result[key])
     {
         <li>
             <a asp-area="" asp-page=Term asp-route-searchString=@uri>

@@ -28,7 +28,7 @@ namespace web
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
 
             StringBuilder uri = new StringBuilder();
-            uri.Append("test?query=");
+            uri.Append(Model.repository);
             string query = string.Format(
                 @"SELECT distinct ?s {{
                 optional {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
@@ -44,10 +44,11 @@ namespace web
                 iris.Add(match[0]);
             }
 
-            Model.result = iris;
+            Model.result[Model.searchResult].Clear();
+            Model.result[Model.searchResult].AddRange(iris);
 
             if (iris.Count() == 0) return Redirect("Error");
-            return RedirectToPage("Result");
+            return RedirectToPage("Result", new { key = Model.searchResult });
         }
     }
 }

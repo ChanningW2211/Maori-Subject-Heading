@@ -1,9 +1,21 @@
 ﻿namespace web
 
 {
-	public class Model
-	{
-        public static List<string> result;
+    static class Model
+    {
+        public const string searchResult = "searchResult";
+        public const string broaderResult = "broaderResult";
+        public const string narrowerResult = "narrowerResult";
+        public const string repository = "test?query=";
+
+        public static Dictionary<string, List<string>> result = new Dictionary<string, List<string>>();
+
+        static Model()
+        {
+            result.Add(searchResult, new List<string>());
+            result.Add(broaderResult, new List<string>());
+            result.Add(narrowerResult, new List<string>());
+        }
 
         public class AllegroGraphJsonResult
         {
