@@ -12,19 +12,22 @@ return
     {
         for $term in $terms//*[skos:prefLabel]
         return
-                <skos:Concept rdf:about="{ $term/@rdf:about }">
+                <skos:Concept rdf:about="{ fn:replace($term/@rdf:about, "#[^$]+$", "#" || fn:encode-for-uri($term/skos:prefLabel)) }">
                     { $term/*[not(self::skos:HE or self::skos:TA or self::skos:KA)] }
                     {
                         for $broaderTerm in $term/skos:TA
-                        return <skos:TA rdf:resource='{ $terms//*[skos:prefLabel = $broaderTerm]/@rdf:about }'> </skos:TA>
+                        let $temp := $terms//*[skos:prefLabel = $broaderTerm]
+                        return <skos:TA rdf:resource='{ fn:replace($temp/@rdf:about, "#[^$]+$", "#" || fn:encode-for-uri($temp/skos:prefLabel)) }'> </skos:TA>
                     }
                     {
                         for $narrowerTerm in $term/skos:HE
-                        return <skos:HE rdf:resource='{ $terms//*[skos:prefLabel = $narrowerTerm]/@rdf:about }'> </skos:HE>
+                        let $temp := $terms//*[skos:prefLabel = $narrowerTerm]
+                        return <skos:HE rdf:resource='{ fn:replace($temp/@rdf:about, "#[^$]+$", "#" || fn:encode-for-uri($temp/skos:prefLabel)) }'> </skos:HE>
                     }
                     {
                         for $relatedTerm in $term/skos:KA
-                        return <skos:KA rdf:resource='{ $terms//*[skos:prefLabel = $relatedTerm]/@rdf:about }'> </skos:KA>
+                        let $temp := $terms//*[skos:prefLabel = $relatedTerm]
+                        return <skos:KA rdf:resource='{ fn:replace($temp/@rdf:about, "#[^$]+$", "#" || fn:encode-for-uri($temp/skos:prefLabel)) }'> </skos:KA>
                     }
                 </skos:Concept>
     }

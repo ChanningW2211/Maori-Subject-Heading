@@ -29,6 +29,7 @@
     </owl:ObjectProperty>
 
     <skos:Concept rdf:about="http://maori.subject.headings/#Ahaaha">
+        <skos:prefLabel>Ahaaha</skos:prefLabel>
         <skos:scopeNote>A swordlike weapon with shark teeth mounted on the edges of the blade.</skos:scopeNote>
         <skos:whakamārama>He rākau patu tangata, he rite ki te kani te hanga, he niho mangō whakamaua ai ki te rau.</skos:whakamārama>
         <skos:altLabel>Shark tooth swords</skos:altLabel>

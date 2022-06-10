@@ -6,9 +6,9 @@ declare namespace rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 
 declare namespace marc = "http://www.loc.gov/MARC21/slim";
 
-declare namespace skos = "http://www.w3.org/2004/02/skos/core#";
+declare namespace skos = "http://www.w3.org/2008/05/skos#";
 
-let $terms:=doc("./taxonomy.xml")
+let $terms:=doc("./ontology.rdf")
 let $records:=doc("./bibliography.xml")
 
 return
@@ -21,6 +21,21 @@ return
                 {
                     for $heading in $record/marc:datafield[@tag="650"]/marc:subfield[@code="2" and text()="reo"]/preceding-sibling::marc:subfield[@code="a"]
                     return <heading>{$terms//skos:Concept[(skos:prefLabel || ".")=string($heading)]/@rdf:about}</heading>
+                }
+                {
+                    for $ISBN in $record/marc:datafield[@tag="020"][*/@code="a"][*/@code="q"]/marc:subfield[@code="a"][1]
+                    return <ISBN>{$ISBN/text()}</ISBN>
+                }
+                {
+                    <Title>
+                    {
+                        let $temp := $record/marc:datafield[@tag="245"]
+                        return string($temp/*[@code="a"] || $temp/*[@code="b"])
+                    }
+                    </Title>}
+                {
+                    for $Link in $record/marc:datafield[@tag="856"]/*[@code="u"]
+                    return <Link>{string($Link)}</Link>
                 }
             </record>
         }
