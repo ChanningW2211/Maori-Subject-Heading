@@ -33,8 +33,8 @@ namespace web
 
 
             StringBuilder termUri = new StringBuilder();
-            termUri.Append("test?query=");
-            string termQuery = string.Format(@"SELECT ?p ?o {{{0} ?p ?o }}", searchString);
+            termUri.Append(Model.repository);
+            string termQuery = string.Format(@"SELECT distinct ?p ?o {{{0} ?p ?o }}", searchString);
             termUri.Append(HttpUtility.UrlEncode(termQuery));
             HttpResponseMessage termResponse = await client.GetAsync(termUri.ToString());
             var termResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(termResponse.Content.ReadAsStringAsync().Result);
@@ -83,7 +83,7 @@ namespace web
             StringBuilder recordUri = new StringBuilder();
             recordUri.Append(Model.repository);
             string recordQuery = string.Format(
-                @"SELECT ?s ?p ?o {{ 
+                @"SELECT distinct ?s ?p ?o {{ 
                 ?s ?p ?o.
                 ?s <http://national.library.records/#tag> {0}.}}", searchString);
             recordUri.Append(HttpUtility.UrlEncode(recordQuery));
@@ -123,7 +123,7 @@ namespace web
 
             StringBuilder broaderUri = new StringBuilder();
             broaderUri.Append(Model.repository);
-            string broaderQuery = string.Format(@"SELECT ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
+            string broaderQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
             broaderUri.Append(HttpUtility.UrlEncode(broaderQuery));
             HttpResponseMessage broaderResponse = await client.GetAsync(broaderUri.ToString());
             var broaderResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(broaderResponse.Content.ReadAsStringAsync().Result);
@@ -135,7 +135,7 @@ namespace web
 
             StringBuilder narrowerUri = new StringBuilder();
             narrowerUri.Append(Model.repository);
-            string narrowerQuery = string.Format(@"SELECT ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
+            string narrowerQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
             narrowerUri.Append(HttpUtility.UrlEncode(narrowerQuery));
             HttpResponseMessage narrowerResponse = await client.GetAsync(narrowerUri.ToString());
             var narrowerResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(narrowerResponse.Content.ReadAsStringAsync().Result);
