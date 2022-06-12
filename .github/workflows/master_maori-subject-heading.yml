@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'maori-subject-heading'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_93602BADEE92419ABCDCB1F2FD014749 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FAD2D1072744CD494A723C329C1D6EC }}
           package: .
