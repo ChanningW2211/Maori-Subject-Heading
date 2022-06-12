@@ -19,8 +19,9 @@ public class ErrorModel : PageModel
         _logger = logger;
     }
 
-    public void OnGet()
+    public void OnGet(string message)
     {
+        ViewData["message"] = message;
         RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
     }
 }

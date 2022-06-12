@@ -5,6 +5,7 @@
 <p>Enter a term:</p>
 
 <form method="post">
-    <input asp-for="searchString"/>
-    <input type="submit" value="Search"/>
+    <input asp-for="searchString" />
+    <span  asp-validation-for="searchString" class="text-danger"></span>
+    <input type="submit" value="Search" />
 </form>

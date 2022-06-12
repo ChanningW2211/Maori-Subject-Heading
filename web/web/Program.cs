@@ -15,6 +15,8 @@ builder.Services.AddHttpClient("AllegroGraph", httpClient =>
 
 var app = builder.Build();
 
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -23,7 +25,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseStatusCodePages(System.Net.Mime.MediaTypeNames.Text.Plain, "Status Code Page: {0}");
+
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();

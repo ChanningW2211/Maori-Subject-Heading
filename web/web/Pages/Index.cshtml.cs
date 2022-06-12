@@ -3,6 +3,7 @@ using System.Web;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace web
@@ -20,11 +21,14 @@ namespace web
 
         public void OnGet() { }
 
+        [Required]
         [BindProperty]
         public string searchString { get; set; }
 
         public async Task<IActionResult> OnPostAsync()
         {
+            if (!ModelState.IsValid) return Page();
+
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
 
             StringBuilder uri = new StringBuilder();
@@ -39,15 +43,18 @@ namespace web
 
             var result = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
             List<string> iris = new List<string>();
-            foreach (var match in result.values)
+            if ((result.values[0])[0] is not null)
             {
-                iris.Add(match[0]);
+                foreach (var match in result.values)
+                {
+                    iris.Add(match[0]);
+                }
             }
 
             Model.result[Model.searchResult].Clear();
             Model.result[Model.searchResult].AddRange(iris);
 
-            if (iris.Count() == 0) return Redirect("Error");
+            if (iris.Count() == 0) return RedirectToPage("Error", new { message = "No result!" });
             return RedirectToPage("Result", new { key = Model.searchResult });
         }
     }
