@@ -10,12 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-        
   build:
     runs-on: windows-latest
-    defaults:
-      run:
-        working-directory: "./web"
 
     steps:
       - uses: actions/checkout@v2
@@ -57,5 +53,5 @@ jobs:
         with:
           app-name: 'maori-subject-heading'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FAD2D1072744CD494A723C329C1D6EC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4814025028644278B5DCAE9040BD6EA9 }}
           package: .
