@@ -5,14 +5,23 @@
     var key = (string)ViewData["key"];
 }
 
-<ul>
-    @foreach (var uri in result[key])
-    {
-        <li>
-            <a asp-page=Term asp-route-searchString=@uri>
-                @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(uri, "#(.*?)>").Groups[1].Value)
-            </a>
-        </li>
-    }
-</ul>
+@if (result[key].Count() == 0)
+{
+    <h2>Sorry, we couldn't find any result for your search😞</h2>
+}
+else
+{
+    <ul>
+        @foreach (var uri in result[key])
+        {
+            <li>
+                <a asp-page=Term asp-route-searchString=@uri>
+                    @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(uri, "#(.*?)>").Groups[1].Value)
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+
 

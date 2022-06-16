@@ -44,18 +44,15 @@ namespace web
 
             var result = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
             List<string> iris = new List<string>();
-            if ((result.values[0])[0] is not null)
+            foreach (var match in result.values)
             {
-                foreach (var match in result.values)
-                {
-                    iris.Add(match[0]);
-                }
+                iris.Add(match[0]);
             }
+
 
             Helper.result[Helper.searchResult].Clear();
             Helper.result[Helper.searchResult].AddRange(iris);
 
-            if (iris.Count() == 0) return RedirectToPage("Error", new { message = "No result!" });
             return RedirectToPage("Result", new { key = Helper.searchResult });
         }
     }
