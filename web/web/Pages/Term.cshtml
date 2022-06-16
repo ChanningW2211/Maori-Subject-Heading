@@ -70,12 +70,12 @@
 
 @if (term.BroaderTerm.Count() > 0)
 {
-    <h6>Tāhuhu/Broader terms [<a asp-area="" asp-page=Result asp-route-key=@web.Model.broaderResult>More</a>] </h6>
+    <h6>Tāhuhu/Broader terms [<a asp-page=Result asp-route-key=@web.Model.broaderResult>More</a>] </h6>
     <ul>
         @foreach (var broaderTerm in term.BroaderTerm)
         {
             <li>
-                <a asp-area="" asp-page=Term asp-route-searchString=@broaderTerm>
+                <a asp-page=Term asp-route-searchString=@broaderTerm>
                     @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(broaderTerm, "#(.*?)>").Groups[1].Value)
                 </a>
             </li>
@@ -85,12 +85,12 @@
 
 @if (term.NarrowerTerm.Count() > 0)
 {
-    <h6>Heke/Narrower terms [<a asp-area="" asp-page=Result asp-route-key=@web.Model.narrowerResult>More</a>] </h6>
+    <h6>Heke/Narrower terms [<a asp-page=Result asp-route-key=@web.Model.narrowerResult>More</a>] </h6>
     <ul>
         @foreach (var narrowerTerm in term.NarrowerTerm)
         {
             <li>
-                <a asp-area="" asp-page=Term asp-route-searchString=@narrowerTerm>
+                <a asp-page=Term asp-route-searchString=@narrowerTerm>
                     @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(narrowerTerm, "#(.*?)>").Groups[1].Value)
                 </a>
             </li>
@@ -105,7 +105,7 @@
         @foreach (var relatedTerm in term.RelatedTerm)
         {
             <li>
-                <a asp-area="" asp-page=Term asp-route-searchString=@relatedTerm>
+                <a asp-page=Term asp-route-searchString=@relatedTerm>
                     @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(relatedTerm, "#(.*?)>").Groups[1].Value)
                 </a>
             </li>

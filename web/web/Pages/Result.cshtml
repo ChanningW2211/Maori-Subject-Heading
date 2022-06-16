@@ -9,7 +9,7 @@
     @foreach (var uri in result[key])
     {
         <li>
-            <a asp-area="" asp-page=Term asp-route-searchString=@uri>
+            <a asp-page=Term asp-route-searchString=@uri>
                 @System.Web.HttpUtility.UrlDecode(System.Text.RegularExpressions.Regex.Match(uri, "#(.*?)>").Groups[1].Value)
             </a>
         </li>
