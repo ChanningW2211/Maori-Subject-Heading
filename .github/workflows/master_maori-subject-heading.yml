@@ -12,7 +12,9 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    defaults:
+      run:
+        working-directory: dart_project
     steps:
       - uses: actions/checkout@v2
 
