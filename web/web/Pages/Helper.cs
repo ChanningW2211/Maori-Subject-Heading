@@ -1,7 +1,7 @@
 ﻿namespace web
 
 {
-    static class Model
+    static class Helper
     {
         public const string searchResult = "searchResult";
         public const string broaderResult = "broaderResult";
@@ -9,7 +9,7 @@
 
         public static Dictionary<string, List<string>> result = new Dictionary<string, List<string>>();
 
-        static Model()
+        static Helper()
         {
             result.Add(searchResult, new List<string>());
             result.Add(broaderResult, new List<string>());

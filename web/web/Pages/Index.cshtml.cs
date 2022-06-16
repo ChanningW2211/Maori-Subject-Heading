@@ -42,7 +42,7 @@ namespace web
             uri.Append(HttpUtility.UrlEncode(query));
             HttpResponseMessage response = await client.GetAsync(uri.ToString());
 
-            var result = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
+            var result = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
             List<string> iris = new List<string>();
             if ((result.values[0])[0] is not null)
             {
@@ -52,11 +52,11 @@ namespace web
                 }
             }
 
-            Model.result[Model.searchResult].Clear();
-            Model.result[Model.searchResult].AddRange(iris);
+            Helper.result[Helper.searchResult].Clear();
+            Helper.result[Helper.searchResult].AddRange(iris);
 
             if (iris.Count() == 0) return RedirectToPage("Error", new { message = "No result!" });
-            return RedirectToPage("Result", new { key = Model.searchResult });
+            return RedirectToPage("Result", new { key = Helper.searchResult });
         }
     }
 }

@@ -2,8 +2,8 @@
 @model web.TermModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
-    var term = (Model.Term)ViewData["term"];
-    var records = (List<Model.Record>)ViewData["records"];
+    var term = (Helper.Term)ViewData["term"];
+    var records = (List<Helper.Record>)ViewData["records"];
 }
 
 <h2>@term.PrefLabel</h2>
@@ -70,7 +70,7 @@
 
 @if (term.BroaderTerm.Count() > 0)
 {
-    <h6>Tāhuhu/Broader terms [<a asp-page=Result asp-route-key=@web.Model.broaderResult>More</a>] </h6>
+    <h6>Tāhuhu/Broader terms [<a asp-page=Result asp-route-key=@web.Helper.broaderResult>More</a>] </h6>
     <ul>
         @foreach (var broaderTerm in term.BroaderTerm)
         {
@@ -85,7 +85,7 @@
 
 @if (term.NarrowerTerm.Count() > 0)
 {
-    <h6>Heke/Narrower terms [<a asp-page=Result asp-route-key=@web.Model.narrowerResult>More</a>] </h6>
+    <h6>Heke/Narrower terms [<a asp-page=Result asp-route-key=@web.Helper.narrowerResult>More</a>] </h6>
     <ul>
         @foreach (var narrowerTerm in term.NarrowerTerm)
         {

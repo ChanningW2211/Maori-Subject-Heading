@@ -11,7 +11,7 @@ namespace web
     {
         public void OnGet(string key)
         {
-            ViewData["result"] = Model.result;
+            ViewData["result"] = Helper.result;
             ViewData["key"] = key;
         }
     }

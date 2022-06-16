@@ -42,8 +42,8 @@ namespace web
             string termQuery = string.Format(@"SELECT distinct ?p ?o {{{0} ?p ?o }}", searchString);
             termUri.Append(HttpUtility.UrlEncode(termQuery));
             HttpResponseMessage termResponse = await client.GetAsync(termUri.ToString());
-            var termResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(termResponse.Content.ReadAsStringAsync().Result);
-            var term = new Model.Term();
+            var termResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(termResponse.Content.ReadAsStringAsync().Result);
+            var term = new Helper.Term();
             foreach (var match in termResult.values)
             {
                 var key = match[0];
@@ -93,8 +93,8 @@ namespace web
                 ?s <http://national.library.records/#tag> {0}.}}", searchString);
             recordUri.Append(HttpUtility.UrlEncode(recordQuery));
             HttpResponseMessage recordResponse = await client.GetAsync(recordUri.ToString());
-            var recordResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(recordResponse.Content.ReadAsStringAsync().Result);
-            var records = new Dictionary<string, Model.Record>();
+            var recordResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(recordResponse.Content.ReadAsStringAsync().Result);
+            var records = new Dictionary<string, Helper.Record>();
             foreach (var match in recordResult.values)
             {
                 var s = match[0];
@@ -103,7 +103,7 @@ namespace web
 
                 if (!records.Keys.Any(key => key == s))
                 {
-                    records.Add(s, new Model.Record());
+                    records.Add(s, new Helper.Record());
                     records[s].RecordId = s;
                 }
 
@@ -131,11 +131,11 @@ namespace web
             string broaderQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
             broaderUri.Append(HttpUtility.UrlEncode(broaderQuery));
             HttpResponseMessage broaderResponse = await client.GetAsync(broaderUri.ToString());
-            var broaderResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(broaderResponse.Content.ReadAsStringAsync().Result);
+            var broaderResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(broaderResponse.Content.ReadAsStringAsync().Result);
             List<string> broaderIris = new List<string>();
             foreach (var iri in broaderResult.values) { broaderIris.Add(iri[0]); }
-            Model.result[Model.broaderResult].Clear();
-            Model.result[Model.broaderResult].AddRange(broaderIris);
+            Helper.result[Helper.broaderResult].Clear();
+            Helper.result[Helper.broaderResult].AddRange(broaderIris);
 
 
             StringBuilder narrowerUri = new StringBuilder();
@@ -143,11 +143,11 @@ namespace web
             string narrowerQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
             narrowerUri.Append(HttpUtility.UrlEncode(narrowerQuery));
             HttpResponseMessage narrowerResponse = await client.GetAsync(narrowerUri.ToString());
-            var narrowerResult = JsonSerializer.Deserialize<Model.AllegroGraphJsonResult>(narrowerResponse.Content.ReadAsStringAsync().Result);
+            var narrowerResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(narrowerResponse.Content.ReadAsStringAsync().Result);
             List<string> narrowerIris = new List<string>();
             foreach (var iri in narrowerResult.values) { narrowerIris.Add(iri[0]); }
-            Model.result[Model.narrowerResult].Clear();
-            Model.result[Model.narrowerResult].AddRange(narrowerIris);
+            Helper.result[Helper.narrowerResult].Clear();
+            Helper.result[Helper.narrowerResult].AddRange(narrowerIris);
 
             return Page();
         }
