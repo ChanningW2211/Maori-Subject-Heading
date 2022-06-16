@@ -19,6 +19,18 @@
     </ul>
 }
 
+@if (!string.IsNullOrEmpty(term.AltLabel))
+{
+    <h6>English used for</h6>
+    <ul>
+        <li> @term.AltLabel </li>
+        @foreach (var label in term.UsedFor)
+        {
+            <li>@label</li>
+        }
+    </ul>
+}
+
 @if (!string.IsNullOrEmpty(term.Whakamārama))
 {
     <h6>Whakamārama</h6>
@@ -32,18 +44,6 @@
     <h6>Scope note</h6>
     <ul>
         <li> @term.ScopeNote</li>
-    </ul>
-}
-
-@if (!string.IsNullOrEmpty(term.AltLabel))
-{
-    <h6>English used for</h6>
-    <ul>
-        <li> @term.AltLabel </li>
-        @foreach (var label in term.UsedFor)
-        {
-            <li>@label</li>
-        }
     </ul>
 }
 
@@ -70,7 +70,7 @@
 
 @if (term.BroaderTerm.Count() > 0)
 {
-    <h6>Tāhuhu/Broader terms [<a asp-area="" asp-page=Result asp-route-key=@web.Model.broaderResult>More</a>] </h6> 
+    <h6>Tāhuhu/Broader terms [<a asp-area="" asp-page=Result asp-route-key=@web.Model.broaderResult>More</a>] </h6>
     <ul>
         @foreach (var broaderTerm in term.BroaderTerm)
         {

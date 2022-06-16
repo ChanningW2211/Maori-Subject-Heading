@@ -13,8 +13,14 @@ builder.Services.AddHttpClient("AllegroGraph", httpClient =>
         Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes($"test:xyzzy")));
 });
 
-var app = builder.Build();
+builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+{
+    builder.AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+}));
 
+var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
@@ -24,6 +30,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseCors("MyPolicy");
 
 app.UseStatusCodePages(System.Net.Mime.MediaTypeNames.Text.Plain, "Status Code Page: {0}");
 
