@@ -31,7 +31,7 @@ namespace web
             _configuration = configuration;
         }
 
-        public async Task<ActionResult> OnGetAsync(string searchString)
+        public async Task<ActionResult> OnGet(string searchString)
         {
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
             searchString = searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase);
