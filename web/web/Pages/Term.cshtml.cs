@@ -9,6 +9,7 @@ namespace web
     public class TermModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
         private const string prefLabel = @"<http://www.w3.org/2008/05/skos#prefLabel>";
         private const string tukutuku = @"<http://www.w3.org/2008/05/skos#tukutuku>";
@@ -24,7 +25,11 @@ namespace web
         private const string link = @"<http://national.library.records/#link>";
 
 
-        public TermModel(IHttpClientFactory httpClientFactory) => _httpClientFactory = httpClientFactory;
+        public TermModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
+        {
+            _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
+        }
 
         public async Task<ActionResult> OnGetAsync(string searchString)
         {
@@ -33,7 +38,7 @@ namespace web
 
 
             StringBuilder termUri = new StringBuilder();
-            termUri.Append(Model.repository);
+            termUri.Append(_configuration["repository"]);
             string termQuery = string.Format(@"SELECT distinct ?p ?o {{{0} ?p ?o }}", searchString);
             termUri.Append(HttpUtility.UrlEncode(termQuery));
             HttpResponseMessage termResponse = await client.GetAsync(termUri.ToString());
@@ -81,7 +86,7 @@ namespace web
 
 
             StringBuilder recordUri = new StringBuilder();
-            recordUri.Append(Model.repository);
+            recordUri.Append(_configuration["repository"]);
             string recordQuery = string.Format(
                 @"SELECT distinct ?s ?p ?o {{ 
                 ?s ?p ?o.
@@ -122,7 +127,7 @@ namespace web
 
 
             StringBuilder broaderUri = new StringBuilder();
-            broaderUri.Append(Model.repository);
+            broaderUri.Append(_configuration["repository"]);
             string broaderQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
             broaderUri.Append(HttpUtility.UrlEncode(broaderQuery));
             HttpResponseMessage broaderResponse = await client.GetAsync(broaderUri.ToString());
@@ -134,7 +139,7 @@ namespace web
 
 
             StringBuilder narrowerUri = new StringBuilder();
-            narrowerUri.Append(Model.repository);
+            narrowerUri.Append(_configuration["repository"]);
             string narrowerQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
             narrowerUri.Append(HttpUtility.UrlEncode(narrowerQuery));
             HttpResponseMessage narrowerResponse = await client.GetAsync(narrowerUri.ToString());

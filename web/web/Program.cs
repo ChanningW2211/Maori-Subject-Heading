@@ -6,11 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient("AllegroGraph", httpClient =>
 {
-    httpClient.BaseAddress = new Uri("http://localhost:10035/repositories/");
+    httpClient.BaseAddress = new Uri(builder.Configuration["db"]);
     httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
         "Basic",
-        Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes($"test:xyzzy")));
+        Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes(string.Format("{0}:{1}", builder.Configuration["usr"], builder.Configuration["pwd"]))));
 });
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>

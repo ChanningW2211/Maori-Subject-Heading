@@ -405,4 +405,4 @@ ASALocalRun/
 .localhistory/
 
 # Configurations
-./web/appsettings.Development.json
+web/appsettings.Development.json

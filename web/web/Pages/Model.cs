@@ -6,7 +6,6 @@
         public const string searchResult = "searchResult";
         public const string broaderResult = "broaderResult";
         public const string narrowerResult = "narrowerResult";
-        public const string repository = "test?query=";
 
         public static Dictionary<string, List<string>> result = new Dictionary<string, List<string>>();
 

@@ -10,13 +10,13 @@ namespace web
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public IndexModel(ILogger<IndexModel> logger, IHttpClientFactory httpClientFactory)
+        public IndexModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _logger = logger;
             _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
 
         public void OnGet() { }
@@ -32,7 +32,7 @@ namespace web
             HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
 
             StringBuilder uri = new StringBuilder();
-            uri.Append(Model.repository);
+            uri.Append(_configuration["repository"]);
             string query = string.Format(
                 @"SELECT distinct ?s {{
                 {{ ?s <http://www.w3.org/2008/05/skos#prefLabel> ?o. FILTER (contains(lcase(str(?o)),'{0}')) }}
