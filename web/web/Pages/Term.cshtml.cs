@@ -10,6 +10,8 @@ namespace web
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IConfiguration _configuration;
+        private HttpClient client;
+        private string searchString;
 
         private const string prefLabel = @"<http://www.w3.org/2008/05/skos#prefLabel>";
         private const string tukutuku = @"<http://www.w3.org/2008/05/skos#tukutuku>";
@@ -31,18 +33,12 @@ namespace web
             _configuration = configuration;
         }
 
-        public async Task<ActionResult> OnGet(string searchString)
+        public ActionResult OnGet(string searchString)
         {
-            HttpClient client = _httpClientFactory.CreateClient("AllegroGraph");
+            client = _httpClientFactory.CreateClient("AllegroGraph");
             searchString = searchString.Replace("%2f", "/", StringComparison.OrdinalIgnoreCase);
 
-
-            StringBuilder termUri = new StringBuilder();
-            termUri.Append(_configuration["repository"]);
-            string termQuery = string.Format(@"SELECT distinct ?p ?o {{{0} ?p ?o }}", searchString);
-            termUri.Append(HttpUtility.UrlEncode(termQuery));
-            HttpResponseMessage termResponse = await client.GetAsync(termUri.ToString());
-            var termResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(termResponse.Content.ReadAsStringAsync().Result);
+            var termResult = GetResult(string.Format(@"SELECT distinct ?p ?o {{{0} ?p ?o }}", searchString)).Result;
             var term = new Helper.Term();
             foreach (var match in termResult.values)
             {
@@ -85,15 +81,10 @@ namespace web
             ViewData["term"] = term;
 
 
-            StringBuilder recordUri = new StringBuilder();
-            recordUri.Append(_configuration["repository"]);
-            string recordQuery = string.Format(
+            var recordResult = GetResult(string.Format(
                 @"SELECT distinct ?s ?p ?o {{ 
                 ?s ?p ?o.
-                ?s <http://national.library.records/#tag> {0}.}}", searchString);
-            recordUri.Append(HttpUtility.UrlEncode(recordQuery));
-            HttpResponseMessage recordResponse = await client.GetAsync(recordUri.ToString());
-            var recordResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(recordResponse.Content.ReadAsStringAsync().Result);
+                ?s <http://national.library.records/#tag> {0}.}}", searchString)).Result;
             var records = new Dictionary<string, Helper.Record>();
             foreach (var match in recordResult.values)
             {
@@ -109,7 +100,7 @@ namespace web
 
                 switch (p)
                 {
-                    
+
                     case title:
                         records[s].Title = o;
                         break;
@@ -126,30 +117,29 @@ namespace web
             ViewData["records"] = records.Values.ToList();
 
 
-            StringBuilder broaderUri = new StringBuilder();
-            broaderUri.Append(_configuration["repository"]);
-            string broaderQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString);
-            broaderUri.Append(HttpUtility.UrlEncode(broaderQuery));
-            HttpResponseMessage broaderResponse = await client.GetAsync(broaderUri.ToString());
-            var broaderResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(broaderResponse.Content.ReadAsStringAsync().Result);
+            var broaderResult = GetResult(string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#broaderTransitive> ?o }}", searchString)).Result;
             List<string> broaderIris = new List<string>();
             foreach (var iri in broaderResult.values) { broaderIris.Add(iri[0]); }
             Helper.result[Helper.broaderResult].Clear();
             Helper.result[Helper.broaderResult].AddRange(broaderIris);
 
 
-            StringBuilder narrowerUri = new StringBuilder();
-            narrowerUri.Append(_configuration["repository"]);
-            string narrowerQuery = string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString);
-            narrowerUri.Append(HttpUtility.UrlEncode(narrowerQuery));
-            HttpResponseMessage narrowerResponse = await client.GetAsync(narrowerUri.ToString());
-            var narrowerResult = JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(narrowerResponse.Content.ReadAsStringAsync().Result);
+            var narrowerResult = GetResult(string.Format(@"SELECT distinct ?o {{{0} <http://www.w3.org/2008/05/skos#narrowerTransitive> ?o }}", searchString)).Result;
             List<string> narrowerIris = new List<string>();
             foreach (var iri in narrowerResult.values) { narrowerIris.Add(iri[0]); }
             Helper.result[Helper.narrowerResult].Clear();
             Helper.result[Helper.narrowerResult].AddRange(narrowerIris);
 
             return Page();
+        }
+
+        private async Task<Helper.AllegroGraphJsonResult> GetResult(String query)
+        {
+            StringBuilder uri = new StringBuilder();
+            uri.Append(_configuration["repository"]);
+            uri.Append(HttpUtility.UrlEncode(query));
+            HttpResponseMessage response = await client.GetAsync(uri.ToString());
+            return JsonSerializer.Deserialize<Helper.AllegroGraphJsonResult>(response.Content.ReadAsStringAsync().Result);
         }
     }
 }
